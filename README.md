@@ -12,8 +12,8 @@ The repository is organized into two main parts:
 
 ### Part II: Vegetation Classification
 - **Convolutional Neural Network (Sklearn/TensorFlow Implementation)**
-- **Local Binary Pattern with Support Vector Classification**
-- **CNN Extension for Multi-class Classification**
+- **Local Binary Pattern with Support Vector Classification (Custom Implementation)**
+- **CNN Extension for Multi-class Classification (Sklearn/TensorFlow Implementation)**
 
 ## Technical Details
 
@@ -38,7 +38,7 @@ The repository is organized into two main parts:
 - Binary classification of crop vs. weed using Convolutional Neural Network
 - Architecture: Multiple convolutional layers with max pooling and dense layers
 - Configurable hyperparameters: learning rate, epochs, batch size, optimizer
-- Sigmoid activation for binary output, trained with binary cross-entropy loss
+- Sigmoid activation for binary output (crop or weed), trained with binary cross-entropy loss
 
 ![Performance Results](images/image_cnn_binary.png)
 
