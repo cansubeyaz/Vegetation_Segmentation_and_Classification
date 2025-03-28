@@ -56,15 +56,6 @@ The repository is organized into two main parts:
 
 ![Performance Results](images/image_lbp_svc.png)
 
-## Performance
-
-The implementations show varying performance characteristics:
-
-- **Logistic Regression**: High precision (0.97+) and F1 score (0.96+), processing time ~1.6s
-- **KNN**: Good recall (0.96+) but slightly lower precision, faster processing time (~2.4s)
-- **CNN**: Good balance of precision/recall (F1 ~0.93), very fast inference (~0.15s)
-- **LBP+SVC**: High recall (0.97+), moderate precision, slower processing (~15s)
-
 ## Usage
 
 Each implementation includes a command-line interface with various configurable parameters:
