@@ -24,7 +24,7 @@ The repository is organized into two main parts:
 - Model can be saved and loaded using pickle
 - Evaluation using precision-recall curves and F1 scores
 
-  ![Performance Results](images/image.png)
+  ![Performance Results](images/image_logisticregression.png)
 
 ### Vegetation Segmentation using K-Nearest Neighbors
 - Implementation using sklearn's KNeighborsClassifier
