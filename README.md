@@ -24,7 +24,7 @@ The repository is organized into two main parts:
 - Model can be saved and loaded using pickle
 - Evaluation using precision-recall curves and F1 scores
 
-  ![Performance Results](images/image_logisticregression.png)
+![Performance Results](images/image_logisticregression.png)
 
 ### Vegetation Segmentation using K-Nearest Neighbors
 - Implementation using sklearn's KNeighborsClassifier
@@ -32,11 +32,15 @@ The repository is organized into two main parts:
 - Configurable number of neighbors and distance metrics (Euclidean, Minkowski)
 - Evaluation metrics similar to logistic regression implementation
 
+![Performance Results](images/image_knn.png)
+
 ### Vegetation Classification using CNN
 - Binary classification of crop vs. weed using Convolutional Neural Network
 - Architecture: Multiple convolutional layers with max pooling and dense layers
 - Configurable hyperparameters: learning rate, epochs, batch size, optimizer
 - Sigmoid activation for binary output, trained with binary cross-entropy loss
+
+![Performance Results](images/image_cnn_binary.png)
 
 ### Vegetation Classification Extension (Multi-class)
 - Extended CNN implementation for multi-class classification
@@ -49,6 +53,8 @@ The repository is organized into two main parts:
 - Support Vector Classification for binary classification
 - Configurable LBP parameters (radius, number of points)
 - Adjustable SVC regularization parameter
+
+![Performance Results](images/image_lbp_svc.png)
 
 ## Performance
 
