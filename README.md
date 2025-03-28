@@ -94,6 +94,6 @@ All implementations provide visual and numerical output:
 - Segmented/classified images
 - Processing time statistics
 
-## Results
+## Author
 
 Cansu Beyaz
