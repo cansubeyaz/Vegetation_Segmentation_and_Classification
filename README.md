@@ -1,6 +1,6 @@
 # Vegetation Segmentation and Classification
 
-This repository contains implementations of various algorithms for vegetation segmentation and classification, developed as part of a research project.
+This repository contains implementations of various algorithms for vegetation segmentation and classification, developed as part of a master's course project.
 
 ## Project Structure
 
