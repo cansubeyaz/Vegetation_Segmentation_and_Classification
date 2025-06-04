@@ -13,7 +13,7 @@ The repository is organized into two main parts:
 ### Part II: Vegetation Classification
 - **Convolutional Neural Network (Sklearn/TensorFlow Implementation)**
 - **Local Binary Pattern with Support Vector Classification (Custom Implementation)**
-- **CNN Extension for Multi-class Classification (Sklearn/TensorFlow Implementation)**
+- **CNN for Multi-class Classification (Sklearn/TensorFlow Implementation)**
 
 ## Technical Details
 
@@ -21,7 +21,7 @@ The repository is organized into two main parts:
 - Custom implementation of logistic regression for binary classification
 - Uses LAB color space for better feature representation
 - Gradient descent optimization with configurable learning rate and iterations
-- Model can be saved and loaded using pickle
+- The model can be saved and loaded using pickle
 - Evaluation using precision-recall curves and F1 scores
 
 ![Performance Results](images/image_logisticregression.png)
@@ -30,7 +30,7 @@ The repository is organized into two main parts:
 - Implementation using sklearn's KNeighborsClassifier
 - Feature normalization for improved distance calculations
 - Configurable number of neighbors and distance metrics (Euclidean, Minkowski)
-- Evaluation metrics similar to logistic regression implementation
+- Evaluation metrics similar to the logistic regression implementation
 
 ![Performance Results](images/image_knn.png)
 
@@ -43,13 +43,12 @@ The repository is organized into two main parts:
 ![Performance Results](images/image_cnn_binary.png)
 
 ### Vegetation Classification Extension (Multi-class)
-- Extended CNN implementation for multi-class classification
-- Three classes: crop, grass, and other
+- Extended CNN implementation for multi-class classification (crop, grass, and other classes)
 - Softmax activation for multiple class probabilities
 - Evaluated using confusion matrices for each class
 
 ### Vegetation Classification using LBP and SVC
-- Feature extraction using custom Local Binary Pattern implementation
+- Feature extraction using a custom Local Binary Pattern implementation
 - Support Vector Classification for binary classification
 - Configurable LBP parameters (radius, number of points)
 - Adjustable SVC regularization parameter
